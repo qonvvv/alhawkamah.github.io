@@ -984,8 +984,9 @@ p {
     .about-shape-2 {
       display: none; } }
 
-.about-content {
-  max-width: 480px; }
+/*.about-content {
+  max-width: 480px; }*/
+  
   .about-content .text {
     margin-top: 15px; }
   .about-content .main-btn {
@@ -1414,9 +1415,9 @@ p {
   background-position: top center;
   z-index: -1;
   background-size: cover; }
-  @media only screen and (min-width: 1921px) {
+ /* @media only screen and (min-width: 1921px) {
     .footer-area::before {
-      height: 1120px; } }
+      height: 1120px; } }*/
 
 #particles-2 {
   position: absolute;
