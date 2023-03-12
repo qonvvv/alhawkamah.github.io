@@ -38,9 +38,8 @@
   .about-content .text {
     margin-top: 15px; }
  .main-btn {
-    background: -webkit-linear-gradient(left, #fe8464 0%, #fe6e9a 50%, #fe8464 100%);
-    background: -o-linear-gradient(left, #fe8464 0%, #fe6e9a 50%, #fe8464 100%);
-    background: linear-gradient(to right, #fe8464 0%, #fe6e9a 50%, #fe8464 100%);
+  background-color: #98C03C;
+
     background-size: 200%;
     border-radius: 8px;
     border-color: #fe6e9900;
@@ -52,3 +51,43 @@
 
 .main-btn:hover {
       background-position: right center; }
+
+
+
+
+      /*** Service ***/
+.service-itemT {
+  height: 320px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background: #FFFFFF;
+  box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+  transition: .5s;
+}
+
+.service-itemT:hover {
+  background: var(--primary);
+}
+
+.service-itemT .service-icon {
+  margin: 0 auto 30px auto;
+  width: 65px;
+  height: 65px;
+  transition: .5s;
+}
+
+.service-itemT i,
+.service-itemT h5,
+.service-itemT p {
+  transition: .5s;
+}
+
+.service-itemT:hover i,
+.service-itemT:hover h5,
+.service-itemT:hover p {
+  color: #FFFFFF !important;
+}
+

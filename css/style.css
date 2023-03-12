@@ -327,7 +327,6 @@ h6,
     width: 100px;
     height: 4px;
     bottom: 0;
-    right: 45%;
     background: var(--dark);
 }
 
@@ -340,6 +339,7 @@ h6,
     background: var(--dark);
 }
 
+
 .section-title3.text-center2::before {
     left: 50%;
     margin-left: -25px;
@@ -347,7 +347,7 @@ h6,
 
 .section-title3.text-center::after {
     left: 50%;
-    margin-left: -50px;
+    margin-left: -70px;
 }
 
 .section-title3 h6::before,
@@ -579,7 +579,7 @@ h6,
 /*** Footer ***/
 .footer {
     background: url(../img/footer.png) center center no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 
 .footer .btn.btn-social {
@@ -623,8 +623,9 @@ h6,
 }
 
 .footer .copyright {
+    text-align: center;
     padding: 25px 0;
-    font-size: 14px;
+    font-size: 16px;
     border-top: 1px solid rgba(256, 256, 256, .1);
 }
 
@@ -993,8 +994,23 @@ h2 > .magic {
    
     .TrueWidth{
         flex: 0 0 auto; 
-        width: 60%; 
+        width: 80%; 
     }
 
 
 }
+
+
+
+@media (max-width: 482px) {
+   
+    .TrueWidth{
+        flex: 0 0 auto; 
+        width: 100%; 
+    }
+
+
+}
+
+
+
