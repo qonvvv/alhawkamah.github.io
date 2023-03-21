@@ -102,7 +102,7 @@ h6,
     position: relative;
     margin-left: 25px;
     
-    color: var(--dark) !important;
+    color: #4C5AA1;
     outline: none;
     transition: .5s;
 }
@@ -113,7 +113,7 @@ h6,
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
-    color: var(--secondary) !important;
+    color: #98C03C;
 }
 
 .navbar-light .navbar-brand h1 {
@@ -216,11 +216,109 @@ h6,
 }
 
 
+
+
+/*** Section Title ***/
+.section-title4::before {
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 4px;
+    bottom: 0;
+    margin-right: -45px;
+    background: var(--dark);
+}
+
+.section-title4::after {
+    position: absolute;
+    content: "";
+    width: 4px;
+    height: 4px;
+    bottom: 0;
+    background: var(--dark);
+}
+
+.section-title4.text-center4::before {
+    left: 50%;
+    margin-left: -25px;
+}
+
+.section-title4.text-center::after {
+    left: 50%;
+    margin-left: -64px;
+}
+
+.section-title4 h6::before,
+.section-title4 h6::after {
+    
+    position: absolute;
+    content: "";
+    width: 15px;
+    height: 15px;
+    top: 3px;
+    right: -2.5px;
+    background: rgba(33, 66, 177, .5);
+}
+
+.section-title4 h6::after {
+    top: 7px;
+    right: 2px;
+}
+
+
+/*** Section Title ***/
+.section-title5::before {
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 4px;
+    bottom: 0;
+    margin-right: -45px;
+    background: var(--dark);
+}
+
+.section-title5::after {
+    position: absolute;
+    content: "";
+    width: 4px;
+    height: 4px;
+    bottom: 0;
+    background: var(--dark);
+}
+
+.section-title5.text-center4::before {
+    left: 50%;
+    margin-left: -25px;
+}
+
+.section-title5.text-center::after {
+    left: 50%;
+    margin-left: -64px;
+}
+
+.section-title5 h6::before,
+.section-title5 h6::after {
+    
+    position: absolute;
+    content: "";
+    width: 15px;
+    height: 15px;
+    top: 3px;
+    right: -2.5px;
+    background: rgba(33, 66, 177, .5);
+}
+
+.section-title5 h6::after {
+    top: 7px;
+    right: 2px;
+}
+
+
 /*** Section Title ***/
 .section-title::before {
     position: absolute;
     content: "";
-    width: 45px;
+    width: 100px;
     height: 4px;
     bottom: 0;
     right: 0;
@@ -233,7 +331,7 @@ h6,
     width: 4px;
     height: 4px;
     bottom: 0;
-    right: 50px;
+    right: 105px;
     background: var(--dark);
 }
 
